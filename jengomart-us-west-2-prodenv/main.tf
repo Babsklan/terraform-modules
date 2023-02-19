@@ -20,6 +20,7 @@ module "vpc" {
 }
 
 
+
 # create nat gateways
 module "nat_gateway" {
     source                      = "../modules/nat-gateway"
